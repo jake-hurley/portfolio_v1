@@ -43,7 +43,7 @@ body {
 }
 
 .job-title-line-1 {
-  margin-left: 26%;
+  margin-left: 28%;
   display: inline-block;
   padding-bottom: 0.3%;
 }
@@ -59,7 +59,7 @@ body {
   margin-top: 0;
   text-align: center;
   font-size: 1.75em;
-  width: 33%;
+  width: 30%;
 }
 
 .job-title-slash {
@@ -73,7 +73,7 @@ body {
   color: white;
   width: 18%;
   padding: 0 0.5%;
-  margin:5% 15% 0 23%;
+  margin:5% 7% 0 27%;
   background: #E85A4F; 
   border-radius: 10px;
 }
@@ -95,3 +95,26 @@ body {
 margin-left: 48%;
 }
 
+
+/* NAVBAR */
+
+.navbar {
+  color:white;
+  margin: 5% 0;
+  width: 100%;
+  background: #E85A4F;
+}
+
+.navbar-item {
+  display: inline;
+  color:white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2em;
+  padding: 3% 4%;
+
+}
+
+.navbar-about {
+  margin-left: 22%;
+}
