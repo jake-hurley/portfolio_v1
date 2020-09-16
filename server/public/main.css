@@ -5,6 +5,10 @@ body {
   background: #1E2751;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 /* BACKGROUND STARS */
 
 .stars1 {
@@ -129,8 +133,8 @@ margin-left: 48%;
 
 .about-me {
   color: white;
-  font-size: 5em;
-  width: 22%;
+  font-size: 7em;
+  width: 30%;
   margin: 3% auto;
   text-align: center;
   border-bottom: 5px solid #E85A4F;
@@ -151,4 +155,23 @@ margin-left: 48%;
 
 .icon {
   margin:5% 8%;
+}
+
+
+/* MY WORK CONTAINER */
+
+.my-work {
+  color: white;
+  font-size: 7em;
+  width: 27%;
+  margin: 10% auto;
+  text-align: center;
+  border-bottom: 5px solid #E85A4F;
+}
+
+
+.work-container {
+  width: 70%;
+  border: 2px solid #E85A4F;
+  margin: 0 auto;
 }

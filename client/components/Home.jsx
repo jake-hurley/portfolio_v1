@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import Opening from './Opening'
 import Navbar from './Navbar'
 import About from './About'
+import Work from './Work'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Opening />
       <Navbar />
       <About />
+      <Work />
     </>
   )
 }
