@@ -1,13 +1,23 @@
 import React from 'react'
 
-class Work extends React.Component {
-    render () {
+import workData from './workData.json'
 
+class Work extends React.Component {
+
+    state = {
+        work: workData.projects
+    }
+
+    render () {
         return (
             <>
                 <h1 className='my-work' id='work'>My Work</h1>
                 <div role='my work section' className='work-container'>
-                    {/* MAPS THROUGH WORK DATA AND DISPLAYS EACH PROJECT*/}
+                    {this.state.work.map(project => {
+                        return (
+                            <h1 key={project.id}>{project.name}</h1>
+                        )
+                    })}
                 </div>
             </>
         )
