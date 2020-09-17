@@ -4,14 +4,14 @@
         "name": "EDA Quest",
         "blurb":"",
         "summary":"",
-        "thumbnail": []
+        "thumbnail": "/icons/EDA-Quest.svg"
     },
     {
         "id": 2,
         "name": "Gamesnight",
         "blurb":"",
         "summary":"",
-        "thumbnail": []
+        "thumbnail": "/icons/gamesnight.svg"
 
     }
 

@@ -15,7 +15,7 @@ class Work extends React.Component {
                 <div role='my work section' className='work-container'>
                     {this.state.work.map(project => {
                         return (
-                            <h1 key={project.id}>{project.name}</h1>
+                            <img src={project.thumbnail} alt={`${project.name} thumbnail`} className='thumbnail' key={project.id} />
                         )
                     })}
                 </div>
