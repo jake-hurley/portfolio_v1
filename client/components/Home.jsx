@@ -5,6 +5,7 @@ import Opening from './Opening'
 import Navbar from './Navbar'
 import About from './About'
 import Work from './Work'
+import Contact from './Contact'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Navbar />
       <About />
       <Work />
+      <Contact />
     </>
   )
 }

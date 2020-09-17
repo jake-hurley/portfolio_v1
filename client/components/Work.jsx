@@ -5,7 +5,7 @@ class Work extends React.Component {
 
         return (
             <>
-                <h1 className='my-work'>My Work</h1>
+                <h1 className='my-work' id='work'>My Work</h1>
                 <div role='my work section' className='work-container'>
                     {/* MAPS THROUGH WORK DATA AND DISPLAYS EACH PROJECT*/}
                 </div>

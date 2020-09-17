@@ -4,7 +4,7 @@ const About = () => {
     return (
         <>
             <h1 className='about-me'>About Me</h1>
-            <div role='about container' className='about-container'>
+            <div role='about container' className='about-container' id='about'>
                 <p className='about-statement'>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -12,14 +12,14 @@ const About = () => {
                     It has survived not only five centuries.
                 </p>
                 <div role='tech stack icons' className='stack-icons'>
-                    <img src='/icons/javascript.svg' alt='' className='icon'/>
-                    <img src='/icons/react.svg' alt='' className='icon'/>
-                    <img src='/icons/node.svg' alt='' className='icon'/>
-                    <img src='/icons/html.svg' alt='' className='icon'/>
-                    <img src='/icons/css.svg' alt='' className='icon'/>
-                    <img src='/icons/sqlite.svg' alt='' className='icon'/>
-                    <img src='/icons/firebase.svg' alt='' className='icon'/>
-                    <img src='/icons/redux.svg' alt='' className='icon'/>
+                    <img src='/icons/javascript.svg' alt='javascript-icon' className='icon'/>
+                    <img src='/icons/react.svg' alt='react-icon' className='icon'/>
+                    <img src='/icons/node.svg' alt='node-icon' className='icon'/>
+                    <img src='/icons/html.svg' alt='html-icon' className='icon'/>
+                    <img src='/icons/css.svg' alt='css-icon' className='icon'/>
+                    <img src='/icons/sqlite.svg' alt='sqlite-icon' className='icon'/>
+                    <img src='/icons/firebase.svg' alt='firebase-icon' className='icon'/>
+                    <img src='/icons/redux.svg' alt='redux-icon' className='icon'/>
                 </div>
             </div>
         </>
