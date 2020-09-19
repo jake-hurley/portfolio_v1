@@ -98,6 +98,7 @@ body::-webkit-scrollbar {
 .cta-arrow {
   padding-top: 10%;
   margin-left: 48%;
+  margin-bottom: 6%;
 }
 
 
@@ -106,7 +107,7 @@ body::-webkit-scrollbar {
 .navbar {
   /* position: fixed; */
   color:white;
-  margin: 6% 0;
+  margin: 0;
   padding: 0.5% 0 0.5% 0;
   width: 100%;
   background: #E85A4F;
@@ -118,6 +119,20 @@ body::-webkit-scrollbar {
   left:0;
   margin: 0;
 }
+
+.navbar-reveal {
+    animation-name: navbar-reveal;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes navbar-reveal {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 
 .navbar-item {
   display: inline;
@@ -145,7 +160,7 @@ body::-webkit-scrollbar {
   color: white;
   font-size: 7em;
   width: 30%;
-  margin: 3% auto;
+  margin: 6% auto 3% auto;
   text-align: center;
   border-bottom: 5px solid #E85A4F;
 }
@@ -197,6 +212,20 @@ body::-webkit-scrollbar {
  margin: 0 auto;
 }
 
+.thumbnail:hover {
+  
+  animation-name: project-highlight;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes project-highlight {
+    from {
+      filter: brightness(100%);
+    }
+    to {
+      filter: brightness(50%);
+    }
+}
 /* CONTACT CONTAINER */
 
 .contact-container {
