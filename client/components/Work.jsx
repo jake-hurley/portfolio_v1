@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import workData from './workData.json'
 
@@ -19,13 +20,17 @@ class Work extends React.Component {
 
     render () {
         if ( this.state.projectView === false ){
+            // DISPLAYS ALL CURRENT PROJECTS
             return (
                 <>
                     <h1 className='my-work' id='work'>My Work</h1>
                     <div role='my work section' className='work-container'>
                         {this.state.work.map(project => {
                             return (
-                                <img src={project.thumbnail} alt={`${project.name} thumbnail`} onClick={() => this.clickHandler(project.id)} className='thumbnail' key={project.id} />
+                                <>
+                                    <h3 className='project-name'>{project.name}</h3>
+                                    <img src={project.thumbnail} alt={`${project.name} thumbnail`} onClick={() => this.clickHandler(project.id)} className='thumbnail' key={project.id} />
+                                </>
                             )
                         })}
                     </div>
@@ -33,10 +38,19 @@ class Work extends React.Component {
             )
         }
         else {
+            const project = workData.projects[this.state.projectSelected]
             return (
-                // displays the project details of the project that was clicked
+                // DISPLAYS THE DETAILS OF THE PROJECT THAT HAS BEEN CLICKED ON
                 <>
-                <h1>the project selected was {workData.projects[this.state.projectSelected].name}</h1>
+                    <h1 className='my-work' id='work'>My Work</h1>
+                    <div role='selected project display' className='work-container'>
+                        <h1 className='project-title'>{project.name}</h1>
+                        <p className='project-summary'>
+                            {project.summary}
+                        </p>
+                        <Link to={project.link} className='project-link'>Project link</Link>
+                        <img src={project.thumbnail} alt={`${project.name} thumbnail`} className='project-image'/>
+                    </div>
                 </>
             )
         }

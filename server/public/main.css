@@ -1,7 +1,12 @@
+/* Archivo */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap');
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 /* FONT IMPORT */
 
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Montserrat';
   background: #1E2751;
   margin: 0;
 }
@@ -36,6 +41,7 @@ body::-webkit-scrollbar {
 .jake-hurley {
   color: white;
   text-align: center;
+  font-family: 'Archivo';
   font-size: 8em;
   width: 45%;
   margin: 0 auto;
@@ -82,6 +88,12 @@ body::-webkit-scrollbar {
   border-radius: 10px;
 }
 
+.option-box:hover {
+  animation-name: highlight;
+  animation-duration: 0.1s;
+  animation-fill-mode: forwards;
+}
+
 .resume-box {
   margin:5% 7% 0 27%;
 }
@@ -105,7 +117,7 @@ body::-webkit-scrollbar {
 /* NAVBAR */
 
 .navbar {
-  /* position: fixed; */
+  font-family: 'Archivo';
   color:white;
   margin: 0;
   padding: 0.5% 0 0.5% 0;
@@ -144,6 +156,12 @@ body::-webkit-scrollbar {
 
 }
 
+.navbar-item:hover {
+  animation-name: highlight;
+  animation-duration: 0.1s;
+  animation-fill-mode: forwards;
+}
+
 .navbar-about {
   margin-left: 22%;
 }
@@ -157,6 +175,7 @@ body::-webkit-scrollbar {
 }
 
 .about-me {
+  font-family: 'Archivo';
   color: white;
   font-size: 7em;
   width: 30%;
@@ -187,12 +206,13 @@ body::-webkit-scrollbar {
 
 .work-container {
   width: 70%;
-  /* border: 2px solid #E85A4F; */
   margin: 0 auto 15% auto;
+  color: white;
 }
 
 .my-work {
   color: white;
+  font-family: 'Archivo';
   font-size: 7em;
   width: 27%;
   margin: 10% auto 2% auto;
@@ -207,6 +227,11 @@ body::-webkit-scrollbar {
   margin: 0;
 }
 
+.project-name {
+  font-family: 'Archivo';
+  color:white;
+}
+
 .thumbnail {
  padding: 3.5%;
  margin: 0 auto;
@@ -214,11 +239,11 @@ body::-webkit-scrollbar {
 
 .thumbnail:hover {
   
-  animation-name: project-highlight;
+  animation-name: highlight;
     animation-duration: 0.25s;
     animation-fill-mode: forwards;
   }
-  @keyframes project-highlight {
+  @keyframes highlight {
     from {
       filter: brightness(100%);
     }
@@ -226,6 +251,12 @@ body::-webkit-scrollbar {
       filter: brightness(50%);
     }
 }
+
+.project-title {
+  text-align: center;
+  color: white;
+}
+
 /* CONTACT CONTAINER */
 
 .contact-container {
@@ -235,12 +266,20 @@ body::-webkit-scrollbar {
   font-size: 1.5em;
 }
 .contact {
+  font-family: 'Archivo';
   padding-top: 1%;
   font-size: 2em;
 }
 
 .socials {
   padding: 2%;
+  
+}
+
+.socials:hover {
+  animation-name: highlight;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
 }
 
 

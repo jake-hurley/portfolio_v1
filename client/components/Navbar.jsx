@@ -9,11 +9,9 @@ class Navbar extends React.Component {
 
     handleScroll = () => {
         const navbar = document.getElementById('navbar')
-        console.log(window.pageYOffset)
         if (window.pageYOffset > 1060) {
             navbar.classList.add('navbar-fixed')
             navbar.classList.add('navbar-reveal')
-
         }
     }
 
