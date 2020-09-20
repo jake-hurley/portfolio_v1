@@ -1,6 +1,11 @@
 import React from 'react'
 
 const Opening = () => {
+
+  function clickHandler () {
+    document.getElementById('about').scrollIntoView() 
+  }
+
   return (
     <>
       <h1 className='jake-hurley'>Jake Hurley</h1>
@@ -11,11 +16,11 @@ const Opening = () => {
       </div>
 
       <div role='resume-box' className='resume-box option-box'>
-        <h3 className='option-text'>Resume / CV</h3>
+        <a target='_blank' className='resume-link' href='/Jake_Hurley_resume.pdf'><h3 className='option-text'>Resume / CV</h3></a>
       </div>
 
       <div role='about-me-link' className='about-me-box option-box'>
-        <h3 className='option-text'>About Me</h3>
+        <h3 className='option-text' onClick={() => clickHandler()}>About Me</h3>
       </div>
 
       <img className='cta-arrow' src='arrow.svg' alt='call-to-action-arrow'/>

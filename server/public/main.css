@@ -99,6 +99,11 @@ body::-webkit-scrollbar {
   margin:5% 7% 0 27%;
 }
 
+.resume-link {
+  text-decoration: none;
+  color:white;
+}
+
 .option-text {
   margin: 5%;
 }
@@ -136,17 +141,23 @@ body::-webkit-scrollbar {
 }
 
 .navbar-reveal {
-    animation-name: navbar-reveal;
+    animation-name: reveal;
     animation-duration: 2s;
     animation-fill-mode: forwards;
   }
-  @keyframes navbar-reveal {
+  @keyframes reveal {
     from {
       opacity: 0;
     }
     to {
       opacity: 1;
     }
+  }
+
+  .reveal {
+    animation-name: reveal;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
   }
 
 .navbar-item {
@@ -209,7 +220,7 @@ body::-webkit-scrollbar {
 
 .work-container {
   width: 70%;
-  margin: 0 auto 15% auto;
+  margin: 0 auto 30% auto;
   color: white;
 }
 
@@ -218,7 +229,7 @@ body::-webkit-scrollbar {
   font-family: 'Archivo';
   font-size: 7em;
   width: 27%;
-  margin: 10% auto 2% auto;
+  margin: 10% auto 5% auto;
   text-align: center;
   border-bottom: 5px solid #E85A4F;
 }

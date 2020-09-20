@@ -43,10 +43,10 @@ class Work extends React.Component {
             return (
                 <>
                     <h1 className='my-work' id='work'>My Work</h1>
-                    <div role='my work section' className='work-container'>
+                    <div role='my work section' className='work-container reveal'>
                         {this.state.work.map(project => {
                             return (
-                                <div role='project container' className='project-container'>
+                                <div role='project container' className='project-container' key={project.id}>
                                     <h3 className='project-name'>{project.name}</h3>
                                     <img src={project.thumbnail} alt={`${project.name} thumbnail`} 
                                     onClick={() => this.clickHandler(project.id)} onMouseEnter={() => this.revealProjectName(project.id)} onMouseLeave={() => this.removeProjectName(project.id)}
@@ -64,7 +64,7 @@ class Work extends React.Component {
                 // DISPLAYS THE DETAILS OF THE PROJECT THAT HAS BEEN CLICKED ON
                 <>
                     <h1 className='my-work' id='work'>My Work</h1>
-                    <div role='selected project display' className='work-container'>
+                    <div role='selected project display' className='work-container reveal'>
                         <img src='/icons/cross.svg' alt='return to projects' className='project-cross' onClick={() => this.returnToProjects()}/>
                         <h1 className='project-title'>{project.name}</h1>
                         <p className='project-summary'>

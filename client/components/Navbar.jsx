@@ -3,6 +3,18 @@ import { Link } from 'react-router-dom'
 
 class Navbar extends React.Component {
 
+    aboutClick = () => {
+        document.getElementById('about').scrollIntoView() 
+    }
+
+    workClick = () => {
+        document.getElementById('work').scrollIntoView() 
+    }
+
+    contactClick = () => {
+        document.getElementById('contact').scrollIntoView() 
+    }
+
     componentDidMount () {
         window.addEventListener('scroll', this.handleScroll)
     }
@@ -19,11 +31,11 @@ class Navbar extends React.Component {
         return (
             
             <div role='navbar' className='navbar' id='navbar' onScroll={this.handleScroll()}>
-                <a href='#about' className='navbar-about navbar-item'>About</a>
+                <a className='navbar-about navbar-item' onClick={this.aboutClick}>About</a>
                 <p className='navbar-slash navbar-item'> / </p>
-                <a href='#work' className='navbar-work navbar-item'>Work</a>
+                <a className='navbar-work navbar-item' onClick={this.workClick}>Work</a>
                 <p className='navbar-slash navbar-item'> / </p>
-                <a href='#contact' className='navbar-contact navbar-item'>Contact</a>
+                <a className='navbar-contact navbar-item' onClick={this.contactClick}>Contact</a>
             </div>
         )
     }
