@@ -9,6 +9,7 @@ body {
   font-family: 'Montserrat';
   background: #1E2751;
   margin: 0;
+  cursor:default;
 }
 
 body::-webkit-scrollbar {
@@ -220,8 +221,6 @@ body::-webkit-scrollbar {
   margin: 10% auto 2% auto;
   text-align: center;
   border-bottom: 5px solid #E85A4F;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .project-container {
@@ -294,8 +293,39 @@ body::-webkit-scrollbar {
 }
 
 .project-title {
+  font-family: 'Archivo';
   text-align: center;
   color: white;
+  font-size: 3em;
+}
+
+.project-summary {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.project-image {
+  /* display: inline-block; */
+  width: 43.5%;
+  margin: 3%;
+}
+
+.project-link {
+  display: block;
+  text-decoration: none;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.project-link:hover {
+  color: #E85A4F;
+}
+
+.project-cross {
+  position: absolute;
+  right: 30%;
 }
 
 /* CONTACT CONTAINER */

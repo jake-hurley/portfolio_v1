@@ -3,10 +3,10 @@
         "id": 1,
         "name": "EDA Quest",
         "blurb":"",
-        "summary": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+        "summary": "EDA Quest is a small platformer game created over the course of a week as our final project at Enspiral Dev Academy. Alongside three other Developers we created the game using Phaser for our game engine, React as the base of our website, and Google Firebase for storing and querying our highscore data.",
         "thumbnail": "/images/edaQuest.png",
         "link": "https://www.eda-quest.co.nz/",
-        "images": "/images/edaFullScene.png"
+        "images": ["/images/edaFullScene.png", "/images/edaSkyScene.png"]
     },
     {
         "id": 2,
@@ -14,8 +14,8 @@
         "blurb":"",
         "summary": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
         "thumbnail": "/icons/gamesnight.svg",
-        "link": ""
-
+        "link": "",
+        "images": []
     }
 
 ]

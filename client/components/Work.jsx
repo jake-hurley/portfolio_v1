@@ -28,8 +28,13 @@ class Work extends React.Component {
         const focusProject = document.getElementsByClassName('project-name')[projectId - 1]
         focusProject.classList.add('project-name-remove')
         focusProject.classList.remove('project-name-reveal')
+    }
 
-
+    returnToProjects = () => {
+        this.setState({
+            projectView: false,
+            projectSelected: ''
+        })
     }
 
     render () {
@@ -60,12 +65,18 @@ class Work extends React.Component {
                 <>
                     <h1 className='my-work' id='work'>My Work</h1>
                     <div role='selected project display' className='work-container'>
+                        <img src='/icons/cross.svg' alt='return to projects' className='project-cross' onClick={() => this.returnToProjects()}/>
                         <h1 className='project-title'>{project.name}</h1>
                         <p className='project-summary'>
                             {project.summary}
                         </p>
-                        <a href={project.link} className='project-link'>Project link</a>
-                        <img src={project.images} alt={`${project.name} thumbnail`} className='project-image'/>
+                        {project.images.map(image => {
+                            return (
+                                    <img src={image} alt={`${project.name} thumbnail`} className='project-image'/>
+                            )
+                        } )}
+                        <a target='_blank' href={project.link} className='project-link'>Checkout {project.name} here!</a>
+
                     </div>
                 </>
             )
