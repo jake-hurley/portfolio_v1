@@ -27,7 +27,7 @@ const Opening = () => {
         <h3 className='option-text' onClick={() => clickHandler()}>About Me</h3>
       </div>
 
-      <img className='cta-arrow' src='arrow.svg' alt='call-to-action-arrow' onClick={()=> aboutClick()}/>
+      <img className='cta-arrow bounce' src='arrow.svg' alt='call-to-action-arrow' onClick={()=> aboutClick()}/>
     </>
   )
 }

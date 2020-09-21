@@ -119,6 +119,27 @@ body::-webkit-scrollbar {
   margin-bottom: 6%;
 }
 
+.bounce {
+  animation: bounce 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0%,
+  25%,
+  50%,
+  75%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 
 /* NAVBAR */
 
