@@ -28,13 +28,13 @@ body::-webkit-scrollbar {
   position: absolute;
   z-index: -1;
   opacity: 0.6;
+
 }
 
 .stars3 {
   position: absolute;
   z-index: -1;
   opacity: 0.4;
-
 }
 
 /* OPENING CONTAINER */
@@ -365,3 +365,65 @@ body::-webkit-scrollbar {
 }
 
 
+
+/* MOBILE */
+
+@media only screen and (max-width: 500px) {
+
+  .stars1 {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+    width: 100vw;
+  }
+  
+  .stars2 {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+    width:100vw;
+  }
+  
+  .stars3 {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    width:100vw;
+  }
+
+  .jake-hurley {
+    font-size: 4em;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .job-title {
+    font-size: 0.7em;
+    width: 50%;
+  }
+
+  .job-title-line-1 {
+    width: 10%;
+    margin-left: 15%;
+  }
+
+  .job-title-line-2 {
+    width: 10%;
+  }
+
+  .option-box {
+    width: 25%;
+  }
+
+  .option-text {
+    font-size: 0.5em;
+  }
+
+  .resume-box {
+    margin-left: 21%;
+  }
+
+  .cta-arrow {
+    width: 5%;
+  }
+}
