@@ -198,6 +198,14 @@ body::-webkit-scrollbar {
   border-bottom: 5px solid #E85A4F;
 }
 
+.nice-to-meet-you {
+  font-size: 2.2em;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
 .about-statement {
   font-size: 1.7em;
   width: 20%;
