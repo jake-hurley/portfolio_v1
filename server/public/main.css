@@ -426,4 +426,44 @@ body::-webkit-scrollbar {
   .cta-arrow {
     width: 5%;
   }
+
+  /* NAVBAR */
+
+  .navbar {
+    display: none;
+    width: 100vw;
+  }
+
+  .navbar-item {
+    font-size: 0.5em;
+  }
+
+  /* ABOUT ME CONTAINER */
+
+  .about-container {
+    display: block;
+  }
+
+  .about-me {
+    font-size: 4em;
+    width: 70%;
+  }
+
+  .about-statement {
+    font-size: 0.8em;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .stack-icons {
+    margin: 5% auto;
+    margin-left: 13%;
+    width: 80%;
+  }
+
+  .icon {
+    width: 15%;
+    margin: 4% 4%;
+  }
 }
