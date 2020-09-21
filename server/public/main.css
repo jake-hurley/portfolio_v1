@@ -395,11 +395,13 @@ body::-webkit-scrollbar {
     font-size: 4em;
     width: 90%;
     margin: 0 auto;
+    padding-top: 30%;
   }
 
   .job-title {
     font-size: 0.7em;
     width: 50%;
+    padding-bottom: 10%;
   }
 
   .job-title-line-1 {
@@ -424,7 +426,10 @@ body::-webkit-scrollbar {
   }
 
   .cta-arrow {
-    width: 5%;
+    padding-top: 25%;
+    padding-bottom: 20%;
+    margin-left: 45%;
+    width: 10%;
   }
 
   /* NAVBAR */
@@ -445,19 +450,28 @@ body::-webkit-scrollbar {
   }
 
   .about-me {
+    padding-top: 30%;
     font-size: 4em;
     width: 70%;
+    margin-bottom: 7%;
+  }
+
+  .nice-to-meet-you {
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 5%;
+    text-align: center;
   }
 
   .about-statement {
-    font-size: 0.8em;
+    font-size: 1em;
     text-align: center;
     width: 70%;
     margin: 0 auto;
   }
 
   .stack-icons {
-    margin: 5% auto;
+    margin: 15% auto;
     margin-left: 13%;
     width: 80%;
   }
@@ -467,9 +481,12 @@ body::-webkit-scrollbar {
     margin: 4% 4%;
   }
 
+  /* WORK CONTAINER */
+
   .my-work {
     font-size: 4em;
     width: 60%;
+    margin-bottom: 15%;
   }
 
   .project-container {
@@ -480,6 +497,35 @@ body::-webkit-scrollbar {
     width: 110%;
     margin-left: 4%;
   }
+
+  /* PROJECT CONTAINER */
+
+  .project-title {
+    font-size: 2em;
+  }
+
+  .project-summary {
+    font-size: 1em;
+  }
+
+  .project-image {
+    width: 100%;
+    margin: 4% auto;
+  }
+
+  .project-link {
+    font-family: 'Archivo';
+    width: 100%;
+    color: #E85A4F;
+    font-size: 1.1em;
+  }
+
+  .project-cross {
+    width: 7%;
+    right: 20%;
+  }
+
+  /* CONTACT CONTAINER */
 
   .contact {
     font-size: 2em;
