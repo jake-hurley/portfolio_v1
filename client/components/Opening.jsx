@@ -6,6 +6,10 @@ const Opening = () => {
     document.getElementById('about').scrollIntoView() 
   }
 
+  function aboutClick () {
+    document.getElementById('about').scrollIntoView() 
+}
+
   return (
     <>
       <h1 className='jake-hurley'>Jake Hurley</h1>
@@ -23,7 +27,7 @@ const Opening = () => {
         <h3 className='option-text' onClick={() => clickHandler()}>About Me</h3>
       </div>
 
-      <img className='cta-arrow' src='arrow.svg' alt='call-to-action-arrow'/>
+      <img className='cta-arrow' src='arrow.svg' alt='call-to-action-arrow' onClick={()=> aboutClick()}/>
     </>
   )
 }
