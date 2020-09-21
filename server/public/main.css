@@ -371,21 +371,21 @@ body::-webkit-scrollbar {
 @media only screen and (max-width: 500px) {
 
   .stars1 {
-    position: absolute;
+    position: fixed;
     z-index: -1;
     opacity: 0.8;
     width: 100vw;
   }
   
   .stars2 {
-    position: absolute;
+    position: fixed;
     z-index: -1;
     opacity: 0.6;
     width:100vw;
   }
   
   .stars3 {
-    position: absolute;
+    position: fixed;
     z-index: -1;
     opacity: 0.4;
     width:100vw;
@@ -465,5 +465,35 @@ body::-webkit-scrollbar {
   .icon {
     width: 15%;
     margin: 4% 4%;
+  }
+
+  .my-work {
+    font-size: 4em;
+    width: 60%;
+  }
+
+  .project-container {
+    width: 80%;
+  }
+
+  .thumbnail {
+    width: 110%;
+    margin-left: 4%;
+  }
+
+  .contact {
+    font-size: 2em;
+  }
+
+  .email {
+    font-size: 0.8em;
+  }
+
+  .phone {
+    font-size: 0.8em;
+  }
+
+  .socials {
+    width: 15%;
   }
 }
