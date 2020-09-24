@@ -191,6 +191,15 @@ body::-webkit-scrollbar {
 
 }
 
+#fake-navbar {
+  display: none;
+}
+
+.navbar-ghost {
+  display: block;
+  opacity: 0;
+}
+
 .navbar-item:hover {
   animation-name: highlight;
   animation-duration: 0.1s;
@@ -228,10 +237,15 @@ body::-webkit-scrollbar {
 }
 
 .about-statement {
+  text-align: center;
   font-size: 1.7em;
   width: 20%;
   margin-left: 27%;
   margin-right: 5%;
+}
+
+.span {
+  color: #E85A4F;
 }
 
 .stack-icons {
@@ -248,7 +262,7 @@ body::-webkit-scrollbar {
 /* MY WORK CONTAINER */
 
 .work-container {
-  width: 70%;
+  width: 80%;
   margin: 0 auto 30% auto;
   color: white;
 }
@@ -265,7 +279,8 @@ body::-webkit-scrollbar {
 
 .project-container {
   display: inline-block;
-  width: 35%;
+  width: 25%;
+  margin-left:6%;
   position: relative;
 }
 
@@ -314,7 +329,7 @@ body::-webkit-scrollbar {
 }
 
 .thumbnail {
- padding: 3.5%;
+ padding: 2%;
  margin: 0 auto;
 }
 
@@ -524,7 +539,7 @@ body::-webkit-scrollbar {
 
   .thumbnail {
     width: 110%;
-    margin-left: 4%;
+    margin-left: 2%;
   }
 
   /* PROJECT CONTAINER */

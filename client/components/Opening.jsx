@@ -3,7 +3,7 @@ import React from 'react'
 const Opening = () => {
 
   function clickHandler () {
-    document.getElementById('about').scrollIntoView() 
+    document.getElementById('work').scrollIntoView() 
   }
 
   function aboutClick () {
@@ -24,7 +24,7 @@ const Opening = () => {
       </div>
 
       <div role='about-me-link' className='about-me-box option-box'>
-        <h3 className='option-text' onClick={() => clickHandler()}>About Me</h3>
+        <h3 className='option-text' onClick={() => clickHandler()}>My Work</h3>
       </div>
 
       <img className='cta-arrow bounce' src='arrow.svg' alt='call-to-action-arrow' onClick={()=> aboutClick()}/>

@@ -21,15 +21,16 @@ class Navbar extends React.Component {
 
     handleScroll = () => {
         const navbar = document.getElementById('navbar')
+        const fakenavbar = document.getElementById('fake-navbar')
         if (window.pageYOffset > 1060) {
             navbar.classList.add('navbar-fixed')
             navbar.classList.add('navbar-reveal')
+            
         }
     }
 
     render () {
         return (
-            
             <div role='navbar' className='navbar' id='navbar' onScroll={this.handleScroll()}>
                 <a className='navbar-about navbar-item' onClick={this.aboutClick}>About</a>
                 <p className='navbar-slash navbar-item'> / </p>
