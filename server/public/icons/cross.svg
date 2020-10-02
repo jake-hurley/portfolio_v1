@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="37.691" height="37.692" viewBox="0 0 37.691 37.692">
-  <g id="cross" transform="translate(-1124.964 -2375.964)">
-    <line id="Line_6" data-name="Line 6" x2="30.62" y2="30.62" transform="translate(1128.5 2379.5)" fill="none" stroke="#e85a4f" stroke-linecap="round" stroke-width="5"/>
-    <line id="Line_7" data-name="Line 7" x1="30.62" y2="30.62" transform="translate(1128.5 2379.5)" fill="none" stroke="#e85a4f" stroke-linecap="round" stroke-width="5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53">
+  <g id="cross" transform="translate(-1117 -2368.386)">
+    <circle id="Ellipse_80" data-name="Ellipse 80" cx="26.5" cy="26.5" r="26.5" transform="translate(1117 2368.386)" fill="#e85a4f"/>
+    <line id="Line_6" data-name="Line 6" x2="19.62" y2="19.234" transform="translate(1133.5 2384.886)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5"/>
+    <line id="Line_7" data-name="Line 7" x1="20" y2="19.234" transform="translate(1133.5 2384.886)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5"/>
   </g>
 </svg>

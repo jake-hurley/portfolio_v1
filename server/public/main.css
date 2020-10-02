@@ -238,7 +238,7 @@ body::-webkit-scrollbar {
 
 .about-statement {
   text-align: center;
-  font-size: 1.7em;
+  font-size: 1.8em;
   width: 30%;
   margin-left: 20%;
   margin-right: 5%;
@@ -391,8 +391,14 @@ body::-webkit-scrollbar {
 
 .project-cross {
   position: absolute;
-  right: 30%;
+  right: 37%;
 }
+
+.project-cross:hover {
+    animation-name: highlight;
+      animation-duration: 0.15s;
+      animation-fill-mode: forwards; 
+  }
 
 /* CONTACT CONTAINER */
 
@@ -523,6 +529,7 @@ body::-webkit-scrollbar {
     text-align: center;
     width: 70%;
     margin: 0 auto;
+    line-height: 150%;
   }
 
   .stack-icons {
