@@ -116,7 +116,7 @@ body::-webkit-scrollbar {
 .cta-arrow {
   padding-top: 10%;
   margin-left: 48%;
-  margin-bottom: 6%;
+  margin-bottom: 8%;
 }
 
 .bounce {
@@ -239,9 +239,10 @@ body::-webkit-scrollbar {
 .about-statement {
   text-align: center;
   font-size: 1.7em;
-  width: 20%;
-  margin-left: 27%;
+  width: 30%;
+  margin-left: 20%;
   margin-right: 5%;
+  line-height: 150%;
 }
 
 .span {
@@ -357,6 +358,16 @@ body::-webkit-scrollbar {
 .project-summary {
   text-align: center;
   font-size: 1.4em;
+}
+
+.project-stack {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.project-stack-icon {
+  /* margin: 0 auto; */
+  margin-left: 6%;
 }
 
 .project-image {

@@ -70,6 +70,13 @@ class Work extends React.Component {
                         <p className='project-summary'>
                             {project.summary}
                         </p>
+                        <div role='displays project stack icons' className='project-stack'>
+                            {project.stack.map(icon => {
+                                return (
+                                    <img src={`/icons/${icon}.svg`} className='project-stack-icon'/>
+                                )
+                            })}    
+                        </div>
                         {project.images.map(image => {
                             return (
                                     <img src={image} alt={`${project.name} thumbnail`} className='project-image'/>

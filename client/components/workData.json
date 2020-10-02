@@ -5,7 +5,8 @@
         "summary": "(Under Construction) Tablio is a Bar ordering App centered around being able to order drinks through your phone by scanning a QR code assigned to your table. Has a UI built for Customer use as well as a seperate real-time updating interface for Managers and Barstaff to track and serve orders. Built with Webpack using React and Google Firebase",
         "thumbnail": "/images/tablio.png",
         "link": "https://xd.adobe.com/view/24f7fb69-0a2c-430d-9287-8312a83aa76a-71a4/",
-        "images": ["/images/tablio1.png", "/images/tablio2.png"]
+        "images": ["/images/tablio1.png", "/images/tablio2.png"],
+        "stack": ["react", "redux", "node", "firebase", "html", "css"]
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "summary": "EDA Quest is a small platformer game created over the course of a week as our final project at Enspiral Dev Academy. Alongside three other Developers we created the game using Phaser for our game engine, React as the base of our website, and Google Firebase for storing and querying our highscore data.",
         "thumbnail": "/images/edaQuest.png",
         "link": "https://www.eda-quest.co.nz/",
-        "images": ["/images/edaFullScene.png", "/images/edaSkyScene.png"]
+        "images": ["/images/edaFullScene.png", "/images/edaSkyScene.png"],
+        "stack": ["phaser", "react", "node", "firebase", "html", "css"]
     },
     {
         "id": 3,
@@ -21,7 +23,7 @@
         "summary": "Gamesnight is a gaming based event creation and organization Webapp where you can create events such as board game or video game nights and invite your friends. The App itself is built using React, Express, Node, Sqlite, Superagent and deployed to Heroku.",
         "thumbnail": "/images/gamesnightIcon.png",
         "link": "https://games-night-app.herokuapp.com/#/",
-        "images": ["/images/gamesnight.png", "/images/gamesnightEvent.png"]
+        "images": ["/images/gamesnight.png", "/images/gamesnightEvent.png"],
+        "stack": ["react", "node", "sqlite", "html", "css"]
     }
-]
-}
+]}
