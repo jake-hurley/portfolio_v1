@@ -605,3 +605,58 @@ body::-webkit-scrollbar {
     width: 15%;
   }
 }
+
+
+/* LAPTOP */
+
+@media only screen and (max-width: 1500px) and (min-width: 1000px) {
+
+  .jake-hurley {
+    width: 80%;
+  }
+
+  .job-title {
+    width: 40%;
+  }
+
+  .job-title-line-1 {
+    margin-left: 22%;
+  }
+
+  .cta-arrow {
+    margin-bottom: 14%;
+  }
+
+  .navbar-about {
+    margin-left: 20%;
+  }
+
+  .about-me {
+    width: 40%;
+  }
+
+  .stack-icons {
+    width: 30%;
+  }
+
+  .work-container {
+    width: 90%;
+  }
+
+  .my-work {
+    width: 40%;
+  }
+
+  .project-name {
+    left: 29%;
+  }
+
+  .project-cross {
+    right: 32%;
+  }
+
+  .project-stack-icon {
+    margin-left: 5%;
+  }
+
+}
