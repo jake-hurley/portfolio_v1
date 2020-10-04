@@ -144,6 +144,7 @@ body::-webkit-scrollbar {
 /* NAVBAR */
 
 .navbar {
+  display: none;
   font-family: 'Archivo';
   color:white;
   margin: 0;
@@ -155,6 +156,7 @@ body::-webkit-scrollbar {
 }
 
 .navbar-fixed {
+  display: block;
   position: fixed;
   top:0;
   left:0;
@@ -163,7 +165,7 @@ body::-webkit-scrollbar {
 
 .navbar-reveal {
     animation-name: reveal;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
   }
   @keyframes reveal {
@@ -189,10 +191,6 @@ body::-webkit-scrollbar {
   font-size: 2em;
   padding: 3% 4%;
 
-}
-
-#fake-navbar {
-  display: none;
 }
 
 .navbar-ghost {
