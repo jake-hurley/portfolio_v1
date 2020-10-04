@@ -653,6 +653,11 @@ body::-webkit-scrollbar {
     width: 40%;
   }
 
+  .about-statement {
+    width: 39%;
+    margin-left: 13%;
+  }
+
   .stack-icons {
     width: 30%;
   }
