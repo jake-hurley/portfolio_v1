@@ -609,7 +609,25 @@ body::-webkit-scrollbar {
 
 /* LAPTOP */
 
-@media only screen and (max-width: 1500px) and (min-width: 1000px) {
+@media only screen and (max-width: 1600px) and (min-width: 1000px) {
+
+  .stars1 {
+    z-index: -1;
+    opacity: 0.8;
+    width: 100vw;
+  }
+  
+  .stars2 {
+    z-index: -1;
+    opacity: 0.6;
+    width:100vw;
+  }
+  
+  .stars3 {
+    z-index: -1;
+    opacity: 0.4;
+    width:100vw;
+  }
 
   .jake-hurley {
     width: 80%;
