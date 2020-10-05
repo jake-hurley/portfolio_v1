@@ -97,6 +97,7 @@ body::-webkit-scrollbar {
 
 .resume-box {
   margin:5% 7% 0 27%;
+  cursor: pointer;
 }
 
 .resume-link {
@@ -111,12 +112,15 @@ body::-webkit-scrollbar {
 
 .about-me-box {
   margin-right: 20%;
+  cursor: pointer;
 }
 
 .cta-arrow {
   padding-top: 10%;
   margin-left: 48%;
   margin-bottom: 8%;
+  cursor: pointer;
+
 }
 
 .bounce {
@@ -199,9 +203,14 @@ body::-webkit-scrollbar {
 }
 
 .navbar-item:hover {
-  animation-name: highlight;
+  color: #1E2751;
   animation-duration: 0.1s;
   animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+.navbar-slash:hover {
+  color:white;
 }
 
 .navbar-about {
@@ -247,6 +256,11 @@ body::-webkit-scrollbar {
   color: #E85A4F;
 }
 
+.reach-out:hover {
+  color: white;
+  cursor: pointer;
+}
+
 .stack-icons {
   display: flex;
   flex-wrap: wrap;
@@ -281,6 +295,7 @@ body::-webkit-scrollbar {
   width: 25%;
   margin-left:6%;
   position: relative;
+  cursor: pointer;
 }
 
 .project {
@@ -385,6 +400,7 @@ body::-webkit-scrollbar {
 
 .project-link:hover {
   color: #E85A4F;
+  cursor: pointer;
 }
 
 .project-cross {
@@ -396,7 +412,8 @@ body::-webkit-scrollbar {
     animation-name: highlight;
       animation-duration: 0.15s;
       animation-fill-mode: forwards; 
-  }
+      cursor: pointer;
+    }
 
 /* CONTACT CONTAINER */
 
@@ -421,6 +438,7 @@ body::-webkit-scrollbar {
   animation-name: highlight;
   animation-duration: 0.25s;
   animation-fill-mode: forwards;
+  cursor: pointer;
 }
 
 

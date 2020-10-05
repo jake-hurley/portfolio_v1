@@ -20,7 +20,7 @@ const About = () => {
                 <p className='about-statement'>
                     I am a 23 year old Junior <span className='span'>Full Stack Developer</span> living on Aucklands North Shore. 
                     I love building creative technology with the personal goal of <span className='span'>always improving</span> the quality of my code as well as <span className='span'>creating greater User Experiences</span>. 
-                    Being a Junior Developer, I am eager to dive into new technology and working environments because above all, <span className='span'>I want to learn</span>. So if you want to chat please <span className='span' onClick={() => reachOutLink()}>REACH OUT TO ME!</span> 
+                    Being a Junior Developer, I am eager to dive into new technology and working environments because above all, <span className='span'>I want to learn</span>. So if you want to chat please <span className='span reach-out' onClick={() => reachOutLink()}>REACH OUT TO ME!</span> 
                 </p>
                 <div role='tech stack icons' className='stack-icons'>
                     <img src='/icons/javascript.svg' alt='javascript-icon' className='icon'/>
